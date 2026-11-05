@@ -1,0 +1,6 @@
+{
+  "extends": "@rem/config/tsconfig/next.json",
+  "compilerOptions": { "types": ["node", "vite/client"], "paths": { "@/*": ["./src/*"] } },
+  "include": ["next-env.d.ts", "src", "tests", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
